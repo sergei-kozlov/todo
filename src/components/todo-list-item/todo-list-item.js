@@ -1,4 +1,5 @@
 import React from 'react';
+
 import './todo-list-item.css';
 
 const TodoListItem = ({ label, important = true } ) => {
@@ -14,6 +15,6 @@ const TodoListItem = ({ label, important = true } ) => {
             </span>)
 };
 
-<button type="button" className="btn btn-outline-succes btn-"></button>
+
 
 export default TodoListItem;
