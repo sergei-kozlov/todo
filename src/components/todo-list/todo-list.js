@@ -9,10 +9,10 @@ const TodoList = ({
                       todos,
                       onDeleted,
                       onToggleImportant,
-                      onToggleDone }) => {
+                      onToggleDone
+                  }) => {
 
     const elements = todos.map((item) => {
-
         const {id, ...itemProps} = item;
 
         return (
@@ -26,14 +26,12 @@ const TodoList = ({
                 />
             </li>
         );
-
     });
 
     return (
         <ul className="list-group todo-list">
             {elements}
         </ul>
-
     );
 };
 
