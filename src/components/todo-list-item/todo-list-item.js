@@ -5,12 +5,14 @@ import './todo-list-item.css';
 export default class TodoListItem extends Component {
 
     render() {
-        const { label,
-                onDeleted,
-                onToggleImportant,
-                onToggleDone,
-                important,
-                done } = this.props;
+        const {
+            label,
+            onDeleted,
+            onToggleImportant,
+            onToggleDone,
+            important,
+            done
+        } = this.props;
 
 
         let classNames = 'todo-list-item';
